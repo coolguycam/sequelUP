@@ -1,0 +1,100 @@
+2018-05-09T03:16:12.492383+00:00 app[web.1]: at Promise._settlePromise (/app/node_modules/bluebird/js/release/promise.js:569:18)
+2018-05-09T03:16:12.492385+00:00 app[web.1]: at Promise._settlePromise0 (/app/node_modules/bluebird/js/release/promise.js:614:10)
+2018-05-09T03:16:12.492386+00:00 app[web.1]: at Promise._settlePromises (/app/node_modules/bluebird/js/release/promise.js:689:18)
+2018-05-09T03:16:12.492387+00:00 app[web.1]: at Async._drainQueue (/app/node_modules/bluebird/js/release/async.js:133:16)
+2018-05-09T03:16:12.492388+00:00 app[web.1]: at Async._drainQueues (/app/node_modules/bluebird/js/release/async.js:143:10)
+2018-05-09T03:16:12.492390+00:00 app[web.1]: at Immediate.Async.drainQueues (/app/node_modules/bluebird/js/release/async.js:17:14)
+2018-05-09T03:16:12.492391+00:00 app[web.1]: at runCallback (timers.js:794:20)
+2018-05-09T03:16:12.492392+00:00 app[web.1]: at tryOnImmediate (timers.js:752:5)
+2018-05-09T03:16:12.492394+00:00 app[web.1]: at processImmediate [as _immediateCallback] (timers.js:729:5)
+2018-05-09T03:16:22.591841+00:00 heroku[web.1]: State changed from starting to crashed
+2018-05-09T03:16:22.573899+00:00 heroku[web.1]: Process exited with status 0
+2018-05-09T06:22:22.697045+00:00 heroku[web.1]: State changed from crashed to starting
+2018-05-09T06:22:28.240101+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-05-09T06:22:31.464973+00:00 app[web.1]: 
+2018-05-09T06:22:31.464991+00:00 app[web.1]: > project-2@1.0.0 start /app
+2018-05-09T06:22:31.464992+00:00 app[web.1]: > node server.js
+2018-05-09T06:22:31.464994+00:00 app[web.1]: 
+2018-05-09T06:22:32.861867+00:00 app[web.1]: Wed, 09 May 2018 06:22:32 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-05-09T06:22:33.149393+00:00 app[web.1]: Wed, 09 May 2018 06:22:33 GMT express-session deprecated undefined resave option; provide resave option at server.js:37:9
+2018-05-09T06:22:33.149630+00:00 app[web.1]: Wed, 09 May 2018 06:22:33 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:37:9
+2018-05-09T06:22:33.161132+00:00 app[web.1]: Warning: connect.session() MemoryStore is not
+2018-05-09T06:22:33.161136+00:00 app[web.1]: designed for a production environment, as it will leak
+2018-05-09T06:22:33.161138+00:00 app[web.1]: memory, and will not scale past a single process.
+2018-05-09T06:22:33.230173+00:00 app[web.1]: Unhandled rejection SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+2018-05-09T06:22:33.230180+00:00 app[web.1]: at Utils.Promise.tap.then.catch.err (/app/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:139:19)
+2018-05-09T06:22:33.230182+00:00 app[web.1]: at tryCatcher (/app/node_modules/bluebird/js/release/util.js:16:23)
+2018-05-09T06:22:33.230184+00:00 app[web.1]: at Promise._settlePromiseFromHandler (/app/node_modules/bluebird/js/release/promise.js:512:31)
+2018-05-09T06:22:33.230186+00:00 app[web.1]: at Promise._settlePromise (/app/node_modules/bluebird/js/release/promise.js:569:18)
+2018-05-09T06:22:33.230187+00:00 app[web.1]: at Promise._settlePromise0 (/app/node_modules/bluebird/js/release/promise.js:614:10)
+2018-05-09T06:22:33.230189+00:00 app[web.1]: at Promise._settlePromises (/app/node_modules/bluebird/js/release/promise.js:689:18)
+2018-05-09T06:22:33.230191+00:00 app[web.1]: at Async._drainQueue (/app/node_modules/bluebird/js/release/async.js:133:16)
+2018-05-09T06:22:33.230192+00:00 app[web.1]: at Async._drainQueues (/app/node_modules/bluebird/js/release/async.js:143:10)
+2018-05-09T06:22:33.230194+00:00 app[web.1]: at Immediate.Async.drainQueues (/app/node_modules/bluebird/js/release/async.js:17:14)
+2018-05-09T06:22:33.230197+00:00 app[web.1]: at runCallback (timers.js:794:20)
+2018-05-09T06:22:33.230198+00:00 app[web.1]: at tryOnImmediate (timers.js:752:5)
+2018-05-09T06:22:33.230199+00:00 app[web.1]: at processImmediate [as _immediateCallback] (timers.js:729:5)
+2018-05-09T06:22:43.418373+00:00 heroku[web.1]: Process exited with status 0
+2018-05-09T06:22:43.436298+00:00 heroku[web.1]: State changed from starting to crashed
+2018-05-09T12:07:00.620836+00:00 heroku[web.1]: State changed from crashed to starting
+2018-05-09T12:07:06.504056+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-05-09T12:07:10.279674+00:00 app[web.1]: 
+2018-05-09T12:07:10.279695+00:00 app[web.1]: > project-2@1.0.0 start /app
+2018-05-09T12:07:10.279696+00:00 app[web.1]: > node server.js
+2018-05-09T12:07:10.279698+00:00 app[web.1]: 
+2018-05-09T12:07:12.444053+00:00 app[web.1]: Wed, 09 May 2018 12:07:12 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-05-09T12:07:12.890861+00:00 app[web.1]: Wed, 09 May 2018 12:07:12 GMT express-session deprecated undefined resave option; provide resave option at server.js:37:9
+2018-05-09T12:07:12.891060+00:00 app[web.1]: Wed, 09 May 2018 12:07:12 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:37:9
+2018-05-09T12:07:12.891812+00:00 app[web.1]: Warning: connect.session() MemoryStore is not
+2018-05-09T12:07:12.891816+00:00 app[web.1]: designed for a production environment, as it will leak
+2018-05-09T12:07:12.891817+00:00 app[web.1]: memory, and will not scale past a single process.
+2018-05-09T12:07:12.969934+00:00 app[web.1]: Unhandled rejection SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+2018-05-09T12:07:12.969938+00:00 app[web.1]: at Utils.Promise.tap.then.catch.err (/app/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:139:19)
+2018-05-09T12:07:12.969942+00:00 app[web.1]: at tryCatcher (/app/node_modules/bluebird/js/release/util.js:16:23)
+2018-05-09T12:07:12.969943+00:00 app[web.1]: at Promise._settlePromiseFromHandler (/app/node_modules/bluebird/js/release/promise.js:512:31)
+2018-05-09T12:07:12.969945+00:00 app[web.1]: at Promise._settlePromise (/app/node_modules/bluebird/js/release/promise.js:569:18)
+2018-05-09T12:07:12.969947+00:00 app[web.1]: at Promise._settlePromise0 (/app/node_modules/bluebird/js/release/promise.js:614:10)
+2018-05-09T12:07:12.969948+00:00 app[web.1]: at Promise._settlePromises (/app/node_modules/bluebird/js/release/promise.js:689:18)
+2018-05-09T12:07:12.969951+00:00 app[web.1]: at Async._drainQueues (/app/node_modules/bluebird/js/release/async.js:143:10)
+2018-05-09T12:07:12.969950+00:00 app[web.1]: at Async._drainQueue (/app/node_modules/bluebird/js/release/async.js:133:16)
+2018-05-09T12:07:12.969953+00:00 app[web.1]: at Immediate.Async.drainQueues (/app/node_modules/bluebird/js/release/async.js:17:14)
+2018-05-09T12:07:12.969955+00:00 app[web.1]: at runCallback (timers.js:794:20)
+2018-05-09T12:07:12.969956+00:00 app[web.1]: at tryOnImmediate (timers.js:752:5)
+2018-05-09T12:07:12.969958+00:00 app[web.1]: at processImmediate [as _immediateCallback] (timers.js:729:5)
+2018-05-09T12:07:23.086272+00:00 heroku[web.1]: State changed from starting to crashed
+2018-05-09T12:07:23.050933+00:00 heroku[web.1]: Process exited with status 0
+2018-05-09T17:59:20.377630+00:00 heroku[web.1]: State changed from crashed to starting
+2018-05-09T17:59:25.986313+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-05-09T17:59:28.583507+00:00 app[web.1]: > project-2@1.0.0 start /app
+2018-05-09T17:59:28.583487+00:00 app[web.1]: 
+2018-05-09T17:59:28.583508+00:00 app[web.1]: > node server.js
+2018-05-09T17:59:28.583510+00:00 app[web.1]: 
+2018-05-09T17:59:29.469195+00:00 app[web.1]: Wed, 09 May 2018 17:59:29 GMT sequelize deprecated String based operators are now deprecated. Please use Symbol based operators for better security, read more at http://docs.sequelizejs.com/manual/tutorial/querying.html#operators at node_modules/sequelize/lib/sequelize.js:242:13
+2018-05-09T17:59:29.699483+00:00 app[web.1]: Wed, 09 May 2018 17:59:29 GMT express-session deprecated undefined resave option; provide resave option at server.js:37:9
+2018-05-09T17:59:29.699771+00:00 app[web.1]: Wed, 09 May 2018 17:59:29 GMT express-session deprecated undefined saveUninitialized option; provide saveUninitialized option at server.js:37:9
+2018-05-09T17:59:29.700525+00:00 app[web.1]: designed for a production environment, as it will leak
+2018-05-09T17:59:29.700522+00:00 app[web.1]: Warning: connect.session() MemoryStore is not
+2018-05-09T17:59:29.700527+00:00 app[web.1]: memory, and will not scale past a single process.
+2018-05-09T17:59:29.764137+00:00 app[web.1]: Unhandled rejection SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306
+2018-05-09T17:59:29.764149+00:00 app[web.1]: at Utils.Promise.tap.then.catch.err (/app/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:139:19)
+2018-05-09T17:59:29.764151+00:00 app[web.1]: at tryCatcher (/app/node_modules/bluebird/js/release/util.js:16:23)
+2018-05-09T17:59:29.764153+00:00 app[web.1]: at Promise._settlePromiseFromHandler (/app/node_modules/bluebird/js/release/promise.js:512:31)
+2018-05-09T17:59:29.764155+00:00 app[web.1]: at Promise._settlePromise (/app/node_modules/bluebird/js/release/promise.js:569:18)
+2018-05-09T17:59:29.764156+00:00 app[web.1]: at Promise._settlePromise0 (/app/node_modules/bluebird/js/release/promise.js:614:10)
+2018-05-09T17:59:29.764158+00:00 app[web.1]: at Promise._settlePromises (/app/node_modules/bluebird/js/release/promise.js:689:18)
+2018-05-09T17:59:29.764159+00:00 app[web.1]: at Async._drainQueue (/app/node_modules/bluebird/js/release/async.js:133:16)
+2018-05-09T17:59:29.764161+00:00 app[web.1]: at Async._drainQueues (/app/node_modules/bluebird/js/release/async.js:143:10)
+2018-05-09T17:59:29.764162+00:00 app[web.1]: at Immediate.Async.drainQueues (/app/node_modules/bluebird/js/release/async.js:17:14)
+2018-05-09T17:59:29.764164+00:00 app[web.1]: at runCallback (timers.js:794:20)
+2018-05-09T17:59:29.764166+00:00 app[web.1]: at tryOnImmediate (timers.js:752:5)
+2018-05-09T17:59:29.764167+00:00 app[web.1]: at processImmediate [as _immediateCallback] (timers.js:729:5)
+2018-05-09T17:59:39.884045+00:00 heroku[web.1]: State changed from starting to crashed
+2018-05-09T17:59:39.860932+00:00 heroku[web.1]: Process exited with status 0
+2018-05-09T18:12:11.949370+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mighty-everglades-18924.herokuapp.com request_id=2a09c349-aa1e-4608-bac8-78823718db6a fwd="206.207.225.115" dyno= connect= service= status=503 bytes= protocol=https
+2018-05-09T18:12:12.148565+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=mighty-everglades-18924.herokuapp.com request_id=5474352a-ca37-45f3-b239-540be771d764 fwd="206.207.225.113" dyno= connect= service= status=503 bytes= protocol=https
+2018-05-09T20:59:53.048747+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=mighty-everglades-18924.herokuapp.com request_id=f4d40e51-b22f-408a-b02a-1af1f76d97c1 fwd="206.207.225.115" dyno= connect= service= status=503 bytes= protocol=https
+2018-05-09T20:59:52.948298+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mighty-everglades-18924.herokuapp.com request_id=e41c1306-7b02-4dc9-9cc1-ee0fdb8e4f5d fwd="206.207.225.115" dyno= connect= service= status=503 bytes= protocol=https
+2018-05-09T21:18:07.156757+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mighty-everglades-18924.herokuapp.com request_id=d66ecc5b-6c5c-48b0-9611-aca4b1045f5b fwd="206.207.225.115" dyno= connect= service= status=503 bytes= protocol=https
+2018-05-09T21:18:07.272349+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=mighty-everglades-18924.herokuapp.com request_id=39a7ff5b-3bde-4140-8875-78383517e675 fwd="206.207.225.113" dyno= connect= service= status=503 bytes= protocol=https
+2018-05-09T21:19:07.242563+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=mighty-everglades-18924.herokuapp.com request_id=6a4f4c01-a5c2-47f2-b1ee-76e607c80716 fwd="206.207.225.113" dyno= connect= service= status=503 bytes= protocol=https
+2018-05-09T21:19:07.358401+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=mighty-everglades-18924.herokuapp.com request_id=ef47a40e-8c00-4c9d-98fb-09fbdca3e7f2 fwd="206.207.225.115" dyno= connect= service= status=503 bytes= protocol=https
